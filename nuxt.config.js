@@ -66,7 +66,7 @@ export default {
   },
   proxy: {
     '/server/': {
-      target: 'http://localhost:8000/',
+      target: 'https://ainomamani-backend-20200911.wl.r.appspot.com/',
       pathRewrite: { '^/server/': '' },
     },
   },
@@ -100,7 +100,7 @@ export default {
       },
       google: {
         client_id:
-          '714370968831-vq1rqb0ns605l4ptvs3kklmuolkk4d5q.apps.googleusercontent.com',
+          '195911995633-audmil65dfr7p6c9ijf4b0llf4lmlm6g.apps.googleusercontent.com',
         response_type: 'code token',
         scope: ['email', 'profile'],
         userinfo_endpoint: '/server/rest-auth/user/',

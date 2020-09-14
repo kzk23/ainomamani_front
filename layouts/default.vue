@@ -35,7 +35,7 @@
     </section>
     <footer class="footer">
       <div class="content has-text-centered">
-        <strong>ainomamani.com</strong>
+        <strong>sarumen.com</strong>
         <p>
           by sarumen. #パンにmellowのジャムを塗ろう #気持ちいいforMen
           #ご飯にchillを振りかけよう

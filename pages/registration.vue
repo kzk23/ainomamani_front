@@ -6,7 +6,7 @@
     <div class="hero-body">
       <div class="container content has-text-centered">
         <h2 class="title has-text-white">Registration</h2>
-        <form class="mx-6 px-6" @keydown.enter="login">
+        <form class="px-6" @keydown.enter="login">
           <b-field @keydown.enter="login">
             <b-input
               ref="email"
