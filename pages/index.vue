@@ -1,6 +1,6 @@
 <template>
   <section
-    class="hero-1 is-fullheight is-mobile"
+    class="hero-1 is-fullheight"
     style="background-image: url('index.jpg')"
   >
     <div class="hero-body">
@@ -18,25 +18,23 @@
                   <div class="media-left">
                     <figure class="image is-48x48">
                       <img
-                        class="is-rounded is-128x128"
-                        src="https://bulma.io/images/placeholders/96x96.png"
+                        class="is-rounded"
+                        src="~/assets/hinopin.jpg"
                         alt="Placeholder image"
                       />
                     </figure>
                   </div>
                   <div class="media-content">
-                    <p class="title is-4">Kazuki Hino</p>
-                    <p class="subtitle is-6">@hinopin</p>
+                    <p class="title is-4 pt-2">
+                      <a href="https://www.instagram.com/hinopin">@hinopin</a>
+                    </p>
                   </div>
                 </div>
 
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                  <a href="#">#css</a>
-                  <a href="#">#responsive</a>
-                  <br />
-                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                <div class="content pt-2">
+                  <p>
+                    1997.02.03<br />理系大学院生<br />自由気ままにkeep going
+                  </p>
                 </div>
               </div>
             </div>
@@ -48,24 +46,26 @@
                   <div class="media-left">
                     <figure class="image is-48x48">
                       <img
-                        src="https://bulma.io/images/placeholders/96x96.png"
+                        class="is-rounded"
+                        src="~/assets/1231asahi.jpg"
                         alt="Placeholder image"
                       />
                     </figure>
                   </div>
                   <div class="media-content">
-                    <p class="title is-4">John Smith</p>
-                    <p class="subtitle is-6">@johnsmith</p>
+                    <p class="title is-4 pt-2">
+                      <a href="https://www.instagram.com/1231asahi"
+                        >@1231asahi</a
+                      >
+                    </p>
                   </div>
                 </div>
 
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                  <a href="#">#css</a>
-                  <a href="#">#responsive</a>
-                  <br />
-                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                <div class="content pt-2">
+                  <p>
+                    小津・久米田・近大薬学
+                    のんびり楽しく&#x1f48a;&#x1f3c4;&#x1f3c0;&#x1f3c2;
+                  </p>
                 </div>
               </div>
             </div>
@@ -79,24 +79,28 @@
                   <div class="media-left">
                     <figure class="image is-48x48">
                       <img
-                        src="https://bulma.io/images/placeholders/96x96.png"
+                        class="is-rounded"
+                        src="~/assets/doiheiheihooo563.jpg"
                         alt="Placeholder image"
                       />
                     </figure>
                   </div>
                   <div class="media-content">
-                    <p class="title is-4">John Smith</p>
-                    <p class="subtitle is-6">@johnsmith</p>
+                    <p class="title is-4 pt-2">
+                      <a href="https://www.instagram.com/doiheiheihooo563"
+                        >@doiheiheihooo563</a
+                      >
+                    </p>
                   </div>
                 </div>
 
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                  <a href="#">#css</a>
-                  <a href="#">#responsive</a>
-                  <br />
-                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                <div class="content pt-2">
+                  <p>
+                    shohei doi<br />どいしょうへい<br />medical engineer<br /><a
+                      href="https://www.soundcloud.com/doi-shohei"
+                      >soundcloud.com/doi-shohei</a
+                    >
+                  </p>
                 </div>
               </div>
             </div>
@@ -108,44 +112,28 @@
                   <div class="media-left">
                     <figure class="image is-48x48">
                       <img
-                        src="https://bulma.io/images/placeholders/96x96.png"
+                        class="is-rounded"
+                        src="~/assets/sugisugi0720.jpg"
                         alt="Placeholder image"
                       />
                     </figure>
                   </div>
                   <div class="media-content">
-                    <p class="title is-4">John Smith</p>
-                    <p class="subtitle is-6">@johnsmith</p>
+                    <p class="title is-4 pt-2">
+                      <a href="https://www.instagram.com/sugisugi0720"
+                        >@sugisugi0720</a
+                      >
+                    </p>
                   </div>
                 </div>
 
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                  <a href="#">#css</a>
-                  <a href="#">#responsive</a>
-                  <br />
-                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                <div class="content pt-2">
+                  <p>杉本 拓二</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="hero-body">
-      <div class="embed-container">
-        <iframe
-          src="https://www.youtube.com/embed/39W5V2pjofQ?controls=0&autoplay=1&mute=1&loop=1&playlist=39W5V2pjofQ"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
-    <div class="hero-body">
-      <div class="container">
-        <img class="img-responsive" src="~/assets/index2.jpg" />
       </div>
     </div>
   </section>
@@ -164,14 +152,6 @@
   max-width: 100%;
   padding-bottom: 56.25%; /* 16:9 の高さなので 56.25% (= 9 ÷ 16) */
   position: relative;
-}
-
-.embed-container iframe {
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
 }
 </style>
 
